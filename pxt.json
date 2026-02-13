@@ -1,13 +1,29 @@
 {
-  "name": "scifi-cockpit",
-  "description": "Sci-Fi Cockpit HUD",
-  "dependencies": {
-    "device": "*",
-    "text-sprite": "*",
-    "status-bar": "*"
-  },
-  "files": [
-    "main.ts"
-  ],
-  "public": true
+    "name": "arcade-hud-system",
+    "version": "0.0.0",
+    "description": "",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts",
+        "custom.ts",
+        "digits.ts",
+        "cockpit.ts",
+        "icon.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "2.0.63",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
 }
