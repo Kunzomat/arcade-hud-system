@@ -1,25 +1,10 @@
 {
-    "name": "arcade-hud-system",
-    "version": "0.0.0",
-    "description": "",
-    "dependencies": {
-        "device": "*"
-    },
-    "files": [
-        "README.md",
-        "main.blocks",
-        "main.ts"
-    ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "public": true,
-    "targetVersions": {
-        "target": "2.0.63",
-        "targetId": "arcade"
-    },
-    "supportedTargets": [
-        "arcade"
-    ],
-    "preferredEditor": "blocksprj"
+  "name": "hud",
+  "description": "Game HUD System",
+  "dependencies": {
+    "device": "*"
+  },
+  "files": [
+    "main.ts"
+  ]
 }
