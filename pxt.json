@@ -12,7 +12,8 @@
         "custom.ts",
         "digits.ts",
         "cockpit.ts",
-        "icon.ts"
+        "icon.ts",
+        "bar.ts"
     ],
     "testFiles": [
         "test.ts"

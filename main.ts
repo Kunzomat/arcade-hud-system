@@ -1,0 +1,29 @@
+let ammo = cockpit.createCockpitElement(img`
+    . . . . 
+    . 1 1 . 
+    . 1 1 . 
+    . . . . 
+    . 1 1 . 
+    . . . . 
+    . . . . 
+    `, cockpit.DisplayType.Number, 10, 10)
+cockpit.setModuleValue(ammo, 5000)
+let rokets = cockpit.createCockpitElement(img`
+    . 1 1 . 
+    . 1 1 . 
+    . 1 1 . 
+    1 1 1 1 
+    1 1 1 1 
+    1 1 1 1 
+    1 . . 1 
+    `, cockpit.DisplayType.Icons, 40, 10)
+cockpit.setModuleValue(rokets, 10)
+let energy = cockpit.createCockpitElement(img`
+    . . . . 
+    1 . . 1 
+    . 1 1 . 
+    1 1 1 1 
+    1 1 1 1 
+    . 1 1 . 
+    1 . . 1 
+    `, cockpit.DisplayType.Number, 80, 10)

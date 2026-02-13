@@ -1,17 +1,25 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="%lBsQh)?+LF,qguiF,Vo">Player</variable><variable type="KIND_SpriteKind" id="To_wX1xQs!nhz$zz}Vmv">Projectile</variable><variable type="KIND_SpriteKind" id="Se}d/a,t;j!.WKRAJ?wj">Food</variable><variable type="KIND_SpriteKind" id="C1-HunL]Q29{J;6rx[/;">Enemy</variable><variable id="HElpc]P13)-w;,1F(Lz/">mySprite</variable><variable id="QiY/aOSxig3|GW9:NhN/">Ammo</variable><variable id="EjL*S]LD+xAr{*JtOLWK">Rokets</variable></variables><block type="pxt-on-start" id="7+EZ=dY]zQZv5`x_cMqa" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="7/ZYW/;Hw0[=G733[hc/"><field name="VAR" id="QiY/aOSxig3|GW9:NhN/">Ammo</field><value name="VALUE"><shadow type="math_number" id="v6pdaWgZ~zFPyhPLwfmJ"><field name="NUM">0</field></shadow><block type="cockpit_createCockpitElement" id="52q!l`k=*_M#:lN{W^XG"><field name="type">cockpit.DisplayType.Number</field><value name="img"><shadow type="screen_image_picker" id="~/MJcMRUX3|$bkEif@3F"><field name="img">img`
-1 1 
-1 1 
-. . 
-1 1 
-1 1 
-. . 
-1 1 
-`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="x"><shadow type="math_number" id=".,({C@.=6X[=hr+7m/r["><field name="NUM">10</field></shadow></value><value name="y"><shadow type="math_number" id="Nel!CYkC$W/c:Cu,qV%|"><field name="NUM">10</field></shadow></value></block></value><next><block type="variables_set" id="VsHoyRhCI{cH4wR@DD/N"><field name="VAR" id="EjL*S]LD+xAr{*JtOLWK">Rokets</field><value name="VALUE"><shadow type="math_number" id="v6pdaWgZ~zFPyhPLwfmJ"><field name="NUM">0</field></shadow><block type="cockpit_createCockpitElement" id="`y(Esi?w]KHz3$+3T#OP"><field name="type">cockpit.DisplayType.Icons</field><value name="img"><shadow type="screen_image_picker" id="YK0zO`?98x^=Drcp@)n#"><field name="img">img`
-1 1 
-1 1 
-. . 
-1 1 
-1 1 
-. . 
-1 1 
-`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="x"><shadow type="math_number" id="g`3=s10_:Z5H)-XWs):p"><field name="NUM">50</field></shadow></value><value name="y"><shadow type="math_number" id="Mz{E:}^e:zPbkj!RxC`w"><field name="NUM">10</field></shadow></value></block></value><next><block type="cockpit_setModuleValue" id="=tu+#Ku6ntMp35Ty#iY^"><value name="module"><block type="variables_get" id="f.7`PFHN=`[jumCu[4+C"><field name="VAR" id="QiY/aOSxig3|GW9:NhN/">Ammo</field></block></value><value name="value"><shadow type="math_number" id="-57QzuMzGn=meu!1H89o"><field name="NUM">87455</field></shadow></value></block></next></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="gXZ7gqKg5T.E6^:NvlZQ">ammo</variable><variable id="cyD0QSxk+H#N5eR2YPhd">rokets</variable><variable id="a_|3FzfHVAw/e{}:#01(">energy</variable></variables><block type="pxt-on-start" id="XLC8,[iv$vKoLAr2Z3AA" x="1017" y="222"><statement name="HANDLER"><block type="variables_set" id="V:NMs~qz@%u.Z:jyKjSb"><field name="VAR" id="gXZ7gqKg5T.E6^:NvlZQ">ammo</field><value name="VALUE"><shadow type="math_number" id="oL[y(IfFg]y0!MU1oN6-"><field name="NUM">0</field></shadow><block type="cockpit_createCockpitElement" id="$4zY!fyQO~#%bY-l@m4{"><field name="type">cockpit.DisplayType.Number</field><value name="img"><shadow type="screen_image_picker" id="U2;_.7Bo-z`d]LKoVP)-"><field name="img">img`
+. . . . 
+. 1 1 . 
+. 1 1 . 
+. . . . 
+. 1 1 . 
+. . . . 
+. . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="x"><shadow type="math_number" id="xlnsKAwl;ej4K$/2q]ZI"><field name="NUM">10</field></shadow></value><value name="y"><shadow type="math_number" id="!F6crwJIx2v*F`AxJj||"><field name="NUM">10</field></shadow></value></block></value><next><block type="cockpit_setModuleValue" id="P@8{%QLG09*-G=V-sg8I"><value name="module"><block type="variables_get" id="Dv=,i6YD3G[C_N!||;6:"><field name="VAR" id="gXZ7gqKg5T.E6^:NvlZQ">ammo</field></block></value><value name="value"><shadow type="math_number" id="n9c3D0wFp!;_A;qZ~dhS"><field name="NUM">5000</field></shadow></value><next><block type="variables_set" id="1#q$@k),Wv}q$2=@^Y9`"><field name="VAR" id="cyD0QSxk+H#N5eR2YPhd">rokets</field><value name="VALUE"><shadow type="math_number" id="o|IoOnOdL%gOMD?tsKM="><field name="NUM">0</field></shadow><block type="cockpit_createCockpitElement" id="}wZPn|n12o^ApfF0NhmB"><field name="type">cockpit.DisplayType.Icons</field><value name="img"><shadow type="screen_image_picker" id="x#4im{`[;2BcC*hrE)hh"><field name="img">img`
+. 1 1 . 
+. 1 1 . 
+. 1 1 . 
+1 1 1 1 
+1 1 1 1 
+1 1 1 1 
+1 . . 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="x"><shadow type="math_number" id=",58#`B0b%r8j@Sknp6@|"><field name="NUM">40</field></shadow></value><value name="y"><shadow type="math_number" id="lk!If_ybgw/K8OHGAia*"><field name="NUM">10</field></shadow></value></block></value><next><block type="cockpit_setModuleValue" id="6k%b{;S$1xK,my0dyXKO"><value name="module"><block type="variables_get" id="z9`gEA3IRX@#j(DHW[fo"><field name="VAR" id="cyD0QSxk+H#N5eR2YPhd">rokets</field></block></value><value name="value"><shadow type="math_number" id="N6OVTqmJ~Y?vbOw|lr/C"><field name="NUM">10</field></shadow></value><next><block type="variables_set" id="trtODbNz~E~w`M(xp_,q"><field name="VAR" id="a_|3FzfHVAw/e{}:#01(">energy</field><value name="VALUE"><shadow type="math_number" id="w18#(Y9NGOxtwc^cMh=*"><field name="NUM">0</field></shadow><block type="cockpit_createCockpitElement" id=":.s;GbJN=3MTpSGMl-jz"><field name="type">cockpit.DisplayType.Number</field><value name="img"><shadow type="screen_image_picker" id="GHOkp/|Ah!g4s0Wp$IN}"><field name="img">img`
+. . . . 
+1 . . 1 
+. 1 1 . 
+1 1 1 1 
+1 1 1 1 
+. 1 1 . 
+1 . . 1 
+`</field><data>{"commentRefs":[],"fieldData":{"img":null}}</data></shadow></value><value name="x"><shadow type="math_number" id="VK22x^(5Mg^zrd#|xu3|"><field name="NUM">80</field></shadow></value><value name="y"><shadow type="math_number" id="FU4)Z@dGDJw_dHKhgUq5"><field name="NUM">10</field></shadow></value></block></value></block></next></block></next></block></next></block></next></block></statement></block></xml>

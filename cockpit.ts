@@ -33,7 +33,7 @@ namespace cockpit {
                 )
             }
 
-            if (this.mode == DisplayType.Number) {
+            if (this.mode == DisplayType.Icons) {
                 this.digits = createIconSprites(
                     value,
                     this.icon.x + this.icon.width + 2,
@@ -41,7 +41,9 @@ namespace cockpit {
                 )
             }
 
-            
+            if (this.mode == DisplayType.Bar) {
+                //this.showBar()
+            }
         }
     }
 }

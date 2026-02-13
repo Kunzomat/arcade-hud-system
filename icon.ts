@@ -30,7 +30,7 @@ namespace cockpit {
             let s = sprites.create(iconImages[0], SpriteKind.Cockpit)
 
             s.setFlag(SpriteFlag.RelativeToCamera, true)
-            s.setPosition(baseX + i * 5, baseY)
+            s.setPosition(baseX + i * 3, baseY)
 
             spritesArray.push(s)
         }
