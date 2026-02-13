@@ -8,7 +8,11 @@
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "custom.ts",
+        "digits.ts",
+        "cockpit.ts",
+        "icon.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -21,5 +25,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
