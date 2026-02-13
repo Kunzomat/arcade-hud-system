@@ -1,10 +1,13 @@
 {
-  "name": "hud",
-  "description": "Game HUD System",
+  "name": "scifi-cockpit",
+  "description": "Sci-Fi Cockpit HUD",
   "dependencies": {
-    "device": "*"
+    "device": "*",
+    "text-sprite": "*",
+    "status-bar": "*"
   },
   "files": [
     "main.ts"
-  ]
+  ],
+  "public": true
 }
