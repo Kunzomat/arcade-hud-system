@@ -42,7 +42,11 @@ namespace cockpit {
             }
 
             if (this.mode == DisplayType.Bar) {
-                //this.showBar()
+                this.digits = createBarSprites(
+                    value,
+                    this.icon.x + this.icon.width + 2,
+                    this.y
+                )
             }
         }
     }
