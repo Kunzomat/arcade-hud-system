@@ -13,7 +13,8 @@
         "digits.ts",
         "cockpit.ts",
         "icon.ts",
-        "bar.ts"
+        "bar.ts",
+        "segmentedbar.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -26,5 +27,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }

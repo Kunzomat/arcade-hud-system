@@ -48,6 +48,15 @@ namespace cockpit {
                     this.y
                 )
             }
+
+            if (this.mode == DisplayType.SegmentBar) {
+                this.digits = createSegmentBarSprites(
+                    value,
+                    this.icon.x + this.icon.width + 2,
+                    this.y
+                )
+            }
+
         }
     }
 }

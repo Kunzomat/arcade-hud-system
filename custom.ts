@@ -11,7 +11,9 @@ namespace cockpit {
         //% block="bar"
         Bar = 1,
         //% block="icons"
-        Icons = 2
+        Icons = 2,
+        //% block="segmentbar"
+        SegmentBar = 3
     }
 
     export class CockpitElement {
